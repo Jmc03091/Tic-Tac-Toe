@@ -15,6 +15,7 @@ body {
   position:absolute;
   left:40%;
   top:30%;
+  visibility:hidden;
   }
   
 .container > div {
@@ -22,7 +23,6 @@ body {
   text-align:center;
   font-size:6rem;
   user-select:none;
-  
   }
   
 .container > div:nth-child(-n + 3) {
@@ -40,3 +40,52 @@ body {
 .container > div:nth-child(n + 7) {
   border-bottom:none;
   }
+
+p {
+ font-size:2rem;
+ color:red;
+ position:absolute;
+  bottom:200px;
+  left:44.5%;
+  
+ }
+
+input {
+  display:block;
+  
+  }
+  
+input:focus {
+outline:0px solid white;
+}
+
+.restartMove {
+  position:absolute;
+  bottom:200px;
+  left:42%;
+  visibility:hidden;
+  }
+  
+.names {
+  position:absolute;
+  left:42%;
+  top:38%;
+  }
+  
+.enterButton {
+  position:relative;
+  left:190px;
+  bottom:20.5px;
+  }
+
+.chooseButtons {
+position:relative;
+bottom:20px;
+left:15px;
+visibility:hidden;
+}
+
+.nameButton {
+
+}
+
